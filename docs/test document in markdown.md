@@ -13,7 +13,7 @@ test document in markdown
 
 Картинка
 
-<img src="pictures/laser sailboat.jpeg" alt="laser sailboat" style="zoom:25%;" />
+![laser sailboat](pictures/laser sailboat.jpeg)
 
 
 
