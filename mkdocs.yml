@@ -2,6 +2,9 @@ site_name: My Docs 2
 theme:
   name: material
 
+plugins:
+  - search
+
 markdown_extensions:
   - pymdownx.superfences:
       custom_fences:
