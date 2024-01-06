@@ -3,7 +3,7 @@ test document in markdown
 Интересно как быстро сюда добавляется новый текст
 
 
-added some more text
+Таблица
 
 | Колонка 1 | Колонка 2 | Колонка 3 |
 | --------- | --------- | --------- |
@@ -11,25 +11,15 @@ added some more text
 | Ряд 2     |           |           |
 | Ряд 3     |           |           |
 
+Картинка
 
-
-```mermaid
-pie
-    title Pie Chart
-    "Dogs" : 386
-    "Cats" : 85
-    "Rats" : 150 
-```
+![laser sailboat](pictures/laser sailboat.jpeg)
 
 
 
 
 
-
-
-Picture
-
-![1000_F_252023193_xXEZbPM7uuq0k02RX9ltTcLkFcfVXL7K](1000_F_252023193_xXEZbPM7uuq0k02RX9ltTcLkFcfVXL7K.jpg)
+Диаграмма mermaid
 
 
 
@@ -45,5 +35,4 @@ sequenceDiagram
   John->>Bob: How about you?
   Bob-->>John: Jolly good!
 ```
-
 
