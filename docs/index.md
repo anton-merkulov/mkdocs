@@ -1,6 +1,6 @@
 # Welcome to MkDocs
 
-New version = 0.4
+New version = 0.5
 
 
 
