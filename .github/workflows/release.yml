@@ -36,4 +36,4 @@ jobs:
       - run: pip install mkdocs-material 
       - run: pip install mike
       - run: git fetch origin gh-pages --depth=1
-      - run: mike deploy --push --update-aliases $RELEASE_VERSION latest
+      - run: mike deploy --push --update-aliases ${{ env.RELEASE_VERSION }} latest
