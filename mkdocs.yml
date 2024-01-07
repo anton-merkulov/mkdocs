@@ -1,4 +1,5 @@
 site_name: My Docs 2
+site_url: 'https://anton-merkulov.github.io/mkdocs/'
 theme:
   name: material
 
