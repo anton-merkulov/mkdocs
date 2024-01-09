@@ -6,7 +6,6 @@ theme:
 
 plugins:
   - search
-  - git-revision-date-localized
   - with-pdf
 
 markdown_extensions:
