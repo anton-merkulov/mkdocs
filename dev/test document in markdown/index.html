@@ -63,6 +63,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#_1" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -231,6 +236,17 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Test document in markdown
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -238,15 +254,49 @@
     Test document in markdown
   </span>
   
-    
-  
-  
-    <span class="md-status md-status--draft"></span>
-  
-
-  
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Примеры медиа вставок
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Примеры медиа вставок">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Таблица
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -310,6 +360,38 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Примеры медиа вставок
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Примеры медиа вставок">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Таблица
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -325,9 +407,9 @@
 
   <h1>Test document in markdown</h1>
 
-<p>test document in markdown</p>
-<p>Интересно как быстро сюда добавляется новый текст</p>
-<p>Таблица</p>
+<h3 id="_1">Примеры медиа вставок</h3>
+<h4 id="_2">Таблица</h4>
+<p>Чтобы комфортно работать с таблицами в markdown, нужен редактор который поддерживает WYSIWYG редактирование таблиц. Например, Typora или Obsidian. Тем не менее функционал работы с таблицами беден в сравнении с notion или coda. Таблица в markdown это как простая таблица в notion в которой нельзя делать ни сортировку, ни ссылки на другие таблицы.</p>
 <table>
 <thead>
 <tr>
@@ -354,7 +436,7 @@
 </tr>
 </tbody>
 </table>
-<p>Картинка</p>
+<p>Картинка </p>
 <p><img alt="laser sailboat" src="../pictures/laser%20sailboat.jpeg" /></p>
 <p>Диаграмма mermaid</p>
 <pre class="mermaid"><code>sequenceDiagram
@@ -373,9 +455,6 @@
 
 
 
-
-  
-  
 
 
 
