@@ -63,6 +63,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#_1" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -258,6 +263,17 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Как вести разработку
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -267,6 +283,65 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Как меняется процесс разработки документации, например, технического задания.
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Как меняется процесс разработки документации, например, технического задания.">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#google-docs-notion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Как было, если использовать google docs или notion
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#docs-as-code-pull-request" class="md-nav__link">
+    <span class="md-ellipsis">
+      Как будет с docs-as-code с использованием механизма pull-request
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#docs-as-code-pull-request_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Как будет с docs-as-code без использования механизма pull-request
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -310,6 +385,56 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Как меняется процесс разработки документации, например, технического задания.
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Как меняется процесс разработки документации, например, технического задания.">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#google-docs-notion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Как было, если использовать google docs или notion
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#docs-as-code-pull-request" class="md-nav__link">
+    <span class="md-ellipsis">
+      Как будет с docs-as-code с использованием механизма pull-request
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#docs-as-code-pull-request_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Как будет с docs-as-code без использования механизма pull-request
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -325,14 +450,15 @@
 
   <h1>Как вести разработку</h1>
 
-<p>Как меняется процесс разработки документации, например, технического задания.</p>
-<p>Как было, если использовать google docs или notion</p>
+<h3 id="_1">Как меняется процесс разработки документации, например, технического задания.</h3>
+<h4 id="google-docs-notion">Как было, если использовать google docs или notion</h4>
 <ol>
+<li>Завел задачу на доработку документации</li>
 <li>Открыл документ</li>
 <li>Написал текст</li>
-<li>Готово</li>
+<li>Закрыл задачу на доработку документации</li>
 </ol>
-<p>Как будет с использованием docs-as-code</p>
+<h4 id="docs-as-code-pull-request">Как будет с docs-as-code с использованием механизма pull-request</h4>
 <ol>
 <li>Завел задачу на доработку документации в github</li>
 <li>Завел отдельную ветку</li>
@@ -341,9 +467,23 @@
 <li>Написал текст</li>
 <li>Сделал коммит</li>
 <li>Сделал pull реквест</li>
-<li>
-<p>Ревьюверы посмотерли пулл реквест</p>
-</li>
+<li>Ревьюверы посмотерли пулл реквест</li>
+<li>Если одобрили, то пулл реквест был принят. Если не одобрили, то текст ушел на доработку.</li>
+<li>Закрыл задачу</li>
+<li>Доработанный текст добавили в релиз</li>
+</ol>
+<h4 id="docs-as-code-pull-request_1">Как будет с docs-as-code без использования механизма pull-request</h4>
+<ol>
+<li>Завел задачу на доработку документации в github</li>
+<li>Открыл документ в typora</li>
+<li>Написал текст</li>
+<li>Сделал коммит</li>
+<li>Получить комментарии от ревьювера</li>
+<li>Закрыл задачу</li>
+<li>Доработанный текст добавили в релиз</li>
+</ol>
+<p>Список инструкций, которые нужно написать</p>
+<ul>
 <li>
 <p>Как писать тексты</p>
 </li>
@@ -359,7 +499,7 @@
 <li>
 <p>Как развернуть инструментарий на github с помощью GitHub pages</p>
 </li>
-</ol>
+</ul>
 
 
 
