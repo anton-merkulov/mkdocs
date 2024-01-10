@@ -1,21 +1,9 @@
-# Welcome to MkDocs
+### Постановка задачи и концепция решения
 
-New version = 0.5
+Практика docs-as-code выглядит потенциально полезной для ведения проектной и продуктовой документации. 
 
+Цель проекта попробовать подход docs-as-code перед тем как предлагаеть его использование в команде. Опробирование  включает в себя запуск MVP небходимой инфрастукруты, описание процессов работы, публикацию примера документации.
 
+В качестве языка разметки был выбран markdown ввиду простоты его освоения и наличия WYSIWIG редакторов. В роли WYSIWIG редактора был выбран  [Typora](https://typora.io), одним из премуществ которого является удобный редактор markdown таблиц и нативная поддержка диаграм mermaid.
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+[Mkdocs-material](https://squidfunk.github.io/mkdocs-material/) выбран для сборки и публикации документации т.к. он обладает минимально достаточным функционалом и его просто развернуть на GitHub. 
